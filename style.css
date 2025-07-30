@@ -1,0 +1,31 @@
+:root {
+     --mn-pri-color:hsl(158, 36%, 37%);
+     --btn-active:hsl(158, 42%, 18%);
+     --mn-h-color:hsl(212, 21%, 14%);
+     --mn-txt-color:hsl(228, 12%, 48%);
+     --mn-bg-ccolor:hsl(30, 38%, 92%);
+     --mn-cnt-color:hsl(0, 0%, 100%);
+     --Montserrat: 'Montserrat', 'sans-serif';
+     --Fraunces: 'Fraunces', 'serif';
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: var(--Montserrat);
+font-size: 0.875rem;
+}
+
+
+.attribution {
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
