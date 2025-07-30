@@ -1,4 +1,5 @@
 :root {
+    background-color: black;
      --mn-pri-color:hsl(158, 36%, 37%);
      --btn-active:hsl(158, 42%, 18%);
      --mn-h-color:hsl(212, 21%, 14%);
@@ -18,10 +19,98 @@
 }
 
 body {
+width: 23rem;
+height: 100vh;
+margin-inline: auto;
 font-family: var(--Montserrat);
 font-size: 0.875rem;
+color: var(--mn-txt-color);
+background-color: var(--mn-bg-ccolor);
+display: grid;
+place-content: center;
 }
 
+.container {
+    background-color: var(--mn-cnt-color);
+    width: min(90%, 21rem);
+    margin-inline: auto;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hero {
+    overflow: hidden;
+}
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.article {
+    padding: 1.5rem;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+ .one {
+    color: var(--mn-h-color);
+    font-size: clamp(1rem, 1.5vh + 1rem, 3rem);
+    font-family: var(--Fraunces);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.first {
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.two {
+    color: var(--mn-pri-color);
+    font-size: clamp(1rem, 1.5vh + 1rem, 3rem);
+    font-family: var(--Fraunces);
+    font-weight: 700;
+   
+}
+
+.line-thru {
+    text-decoration: line-through;
+ 
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--mn-pri-color);
+    color: var(--mn-cnt-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    transition: background-color 300ms ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--btn-active);
+}
 
 .attribution {
     position:absolute;
