@@ -25,17 +25,15 @@ This is a solution to the [Product preview card component challenge on Frontend 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
+The background on the mobile view makes it difficult to adjust the screen size. I wanted to use grid auto or flex basis and grow on the container but the background is limiting me so I jusp otped to use responsive units were applicable
 - See hover and focus states for interactive elements
+I only used hover state for the button
 
 ### Screenshot
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+Mobile view
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
@@ -53,9 +51,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -85,27 +80,28 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Using the newly learned responsive units min, max and especially clamp. I was apple to apply clamp on the mobile view but it was trial and error.
+I had to go back and change the hero section by removing the img on css and had to use background image for the picture to change during the responsiveness of the web.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Kevin Powell Youtube](https://www.example.com) - I am still trying to differentiate the responsiveness of grid and flex
+- [Web Dev Simplified YouTube](https://www.example.com) - Introduces advanced concepts to invision the long teerm goal
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Star-Mdakane](https://www.frontendmentor.io/profile/@Star-Mdakane)
+- Twitter - [@yKidStarMadrad](https://www.twitter.com/@yKidStarMadrad)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Andrew introduced me to eye dropper which helps a lot on color palates
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
